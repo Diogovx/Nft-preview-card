@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+main{
+    width: 85%;
+    background-color: hsl(216, 50%, 16%);
+    padding: 7%;
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+main .imgNft {
+    width: 100%;
+    margin-bottom: 10%;
+}
+main .imgNft img:first-child{
+    width: 100%;
+}
+main .imgNft img:last-child{
+    display: none;
+}
+
+main h1{
+    font-size: 22px;
+    margin-bottom: 10%;
+}
+main p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10%;
+}
+
+main .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+main .icons span{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+main .icons span:first-child{
+    color: hsl(178, 100%, 50%);
+}
+main .icons span:last-child{
+    color: hsl(215, 51%, 70%);
+}
+
+main .footer{
+    padding-top: 5%;
+    border-top: 0.5px solid hsl(215, 32%, 27%);
+    display: flex;
+    align-items: center;
+}
+
+main .footer img{
+    width: 15%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    margin-right: 7%;
+}
+
+main .footer span{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+main .footer span a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media(min-width: 1440px){
+    main{
+        width: 20%;
+        padding: 1%;
+        margin-bottom: 2%;
+    }
+}
